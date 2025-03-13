@@ -1,6 +1,7 @@
 module google.golang.org/grpc/interzeptor
 
 go 1.21
+toolchain go1.23.7
 
 require (
 	github.com/cncf/xds/go v0.0.0-20240423153145-555b57ec207b
@@ -16,9 +17,9 @@ require (
 	cel.dev/expr v0.15.0 // indirect
 	github.com/envoyproxy/protoc-gen-validate v1.0.4 // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
-	golang.org/x/net v0.25.0 // indirect
-	golang.org/x/sys v0.20.0 // indirect
-	golang.org/x/text v0.15.0 // indirect
+	golang.org/x/net v0.36.0 // indirect
+	golang.org/x/sys v0.30.0 // indirect
+	golang.org/x/text v0.22.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20240528184218-531527333157 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240528184218-531527333157 // indirect
 )
